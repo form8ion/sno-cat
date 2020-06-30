@@ -1,0 +1,6 @@
+_extends: .github
+repository:
+  name: sno-cat
+  description: tool for grooming a noisy notification list
+  homepage: 'https://npm.im/@form8ion/sno-cat'
+  private: false
