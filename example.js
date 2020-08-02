@@ -1,3 +1,5 @@
-// remark-usage-ignore-next
-/* eslint-disable-next-line no-unused-vars */
-import snoCat from './lib/index.cjs';
+import {listDependencyUpdates} from './lib/index.cjs';
+
+(async () => {
+  await listDependencyUpdates();
+})();

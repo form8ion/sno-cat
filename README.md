@@ -37,7 +37,11 @@ $ npm install @form8ion/sno-cat --save-prod
 ### Example
 
 ```javascript
-import snoCat from '@form8ion/sno-cat';
+import {listDependencyUpdates} from '@form8ion/sno-cat';
+
+(async () => {
+  await listDependencyUpdates();
+})();
 ```
 
 ## Contributing
